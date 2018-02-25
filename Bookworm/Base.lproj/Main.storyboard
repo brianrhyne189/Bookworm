@@ -97,107 +97,107 @@
                                                 <rect key="frame" x="8" y="59" width="100" height="150"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="a-kind-of-mirraculas-paradise-1513795428" translatesAutoresizingMaskIntoConstraints="NO" id="lj2-hQ-m0h">
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="the-recovering-1513795841" translatesAutoresizingMaskIntoConstraints="NO" id="lj2-hQ-m0h">
                                                 <rect key="frame" x="8" y="217" width="100" height="150"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="a-kind-of-mirraculas-paradise-1513795428" translatesAutoresizingMaskIntoConstraints="NO" id="afL-oS-QqG">
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="this-will-be-my-undoing-1513795492" translatesAutoresizingMaskIntoConstraints="NO" id="afL-oS-QqG">
                                                 <rect key="frame" x="8" y="375" width="100" height="150"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="a-kind-of-mirraculas-paradise-1513795428" translatesAutoresizingMaskIntoConstraints="NO" id="fbo-kt-VwQ">
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="the-house-of-impossible-beauties-1513795682" translatesAutoresizingMaskIntoConstraints="NO" id="fbo-kt-VwQ">
                                                 <rect key="frame" x="8" y="533" width="100" height="150"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="a-kind-of-mirraculas-paradise-1513795428" translatesAutoresizingMaskIntoConstraints="NO" id="WqM-LH-pwN">
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="some-hell-1513795701" translatesAutoresizingMaskIntoConstraints="NO" id="WqM-LH-pwN">
                                                 <rect key="frame" x="8" y="691" width="100" height="150"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="a-kind-of-mirraculas-paradise-1513795428" translatesAutoresizingMaskIntoConstraints="NO" id="gNG-VQ-1IS">
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="laura-and-emma-1513795738" translatesAutoresizingMaskIntoConstraints="NO" id="gNG-VQ-1IS">
                                                 <rect key="frame" x="8" y="849" width="100" height="150"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="a-kind-of-mirraculas-paradise-1513795428" translatesAutoresizingMaskIntoConstraints="NO" id="fvs-Kx-QSQ">
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="how-to-write-an-autobiographical-novel-1513795939" translatesAutoresizingMaskIntoConstraints="NO" id="fvs-Kx-QSQ">
                                                 <rect key="frame" x="8" y="1007" width="100" height="150"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="a-kind-of-mirraculas-paradise-1513795428" translatesAutoresizingMaskIntoConstraints="NO" id="zsf-ud-2y9">
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="heart-berries-1513795521" translatesAutoresizingMaskIntoConstraints="NO" id="zsf-ud-2y9">
                                                 <rect key="frame" x="8" y="1165" width="100" height="150"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="a-kind-of-mirraculas-paradise-1513795428" translatesAutoresizingMaskIntoConstraints="NO" id="V28-BF-bK1">
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="and-now-we-have-everything-1513795900" translatesAutoresizingMaskIntoConstraints="NO" id="V28-BF-bK1">
                                                 <rect key="frame" x="8" y="1323" width="100" height="150"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="a-kind-of-mirraculas-paradise-1513795428" translatesAutoresizingMaskIntoConstraints="NO" id="Tm7-3O-1xe">
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="the-sparsholt-affair-1513795718" translatesAutoresizingMaskIntoConstraints="NO" id="Tm7-3O-1xe">
                                                 <rect key="frame" x="137" y="59" width="100" height="150"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="a-kind-of-mirraculas-paradise-1513795428" translatesAutoresizingMaskIntoConstraints="NO" id="5VZ-vx-6eT">
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="what-are-we-doing-here-1513795607" translatesAutoresizingMaskIntoConstraints="NO" id="5VZ-vx-6eT">
                                                 <rect key="frame" x="137" y="217" width="100" height="150"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="a-kind-of-mirraculas-paradise-1513795428" translatesAutoresizingMaskIntoConstraints="NO" id="D8C-6x-QKN">
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="the-line-becomes-a-river-1513795626" translatesAutoresizingMaskIntoConstraints="NO" id="D8C-6x-QKN">
                                                 <rect key="frame" x="137" y="375" width="100" height="150"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="a-kind-of-mirraculas-paradise-1513795428" translatesAutoresizingMaskIntoConstraints="NO" id="VM2-kw-buz">
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="the-hazel-wood-1513795473" translatesAutoresizingMaskIntoConstraints="NO" id="VM2-kw-buz">
                                                 <rect key="frame" x="137" y="533" width="100" height="150"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="a-kind-of-mirraculas-paradise-1513795428" translatesAutoresizingMaskIntoConstraints="NO" id="uNq-HA-oDA">
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="tangerine-1513795958" translatesAutoresizingMaskIntoConstraints="NO" id="uNq-HA-oDA">
                                                 <rect key="frame" x="137" y="691" width="100" height="150"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="a-kind-of-mirraculas-paradise-1513795428" translatesAutoresizingMaskIntoConstraints="NO" id="1Gc-NX-DjX">
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sharp-1513795881" translatesAutoresizingMaskIntoConstraints="NO" id="1Gc-NX-DjX">
                                                 <rect key="frame" x="137" y="849" width="100" height="150"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="a-kind-of-mirraculas-paradise-1513795428" translatesAutoresizingMaskIntoConstraints="NO" id="lAF-1h-vY0">
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="freshwater-1513795541" translatesAutoresizingMaskIntoConstraints="NO" id="lAF-1h-vY0">
                                                 <rect key="frame" x="137" y="1007" width="100" height="150"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="a-kind-of-mirraculas-paradise-1513795428" translatesAutoresizingMaskIntoConstraints="NO" id="2fY-FA-5aJ">
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="feel-free-1513795562" translatesAutoresizingMaskIntoConstraints="NO" id="2fY-FA-5aJ">
                                                 <rect key="frame" x="137" y="1165" width="100" height="150"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="a-kind-of-mirraculas-paradise-1513795428" translatesAutoresizingMaskIntoConstraints="NO" id="9uA-yd-nn9">
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="circe-1513795820" translatesAutoresizingMaskIntoConstraints="NO" id="9uA-yd-nn9">
                                                 <rect key="frame" x="137" y="1323" width="100" height="150"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="a-kind-of-mirraculas-paradise-1513795428" translatesAutoresizingMaskIntoConstraints="NO" id="96t-9Z-0Gg">
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="amy-bloom-1513795922" translatesAutoresizingMaskIntoConstraints="NO" id="96t-9Z-0Gg">
                                                 <rect key="frame" x="267" y="59" width="100" height="150"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="a-kind-of-mirraculas-paradise-1513795428" translatesAutoresizingMaskIntoConstraints="NO" id="eMd-fj-wtI">
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="the-merry-spinster-1513795764" translatesAutoresizingMaskIntoConstraints="NO" id="eMd-fj-wtI">
                                                 <rect key="frame" x="267" y="217" width="100" height="150"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="a-kind-of-mirraculas-paradise-1513795428" translatesAutoresizingMaskIntoConstraints="NO" id="j6X-Eg-IQv">
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="back-talk-1513795644" translatesAutoresizingMaskIntoConstraints="NO" id="j6X-Eg-IQv">
                                                 <rect key="frame" x="267" y="375" width="100" height="150"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="a-kind-of-mirraculas-paradise-1513795428" translatesAutoresizingMaskIntoConstraints="NO" id="2qk-hy-Vkj">
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="the-female-persuasion-1513795865" translatesAutoresizingMaskIntoConstraints="NO" id="2qk-hy-Vkj">
                                                 <rect key="frame" x="267" y="533" width="100" height="150"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="a-kind-of-mirraculas-paradise-1513795428" translatesAutoresizingMaskIntoConstraints="NO" id="KEz-fP-Yh4">
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="oliver-loving-1513795452" translatesAutoresizingMaskIntoConstraints="NO" id="KEz-fP-Yh4">
                                                 <rect key="frame" x="267" y="691" width="100" height="150"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="a-kind-of-mirraculas-paradise-1513795428" translatesAutoresizingMaskIntoConstraints="NO" id="4AD-Fc-YUK">
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="red-clocks-1513795413" translatesAutoresizingMaskIntoConstraints="NO" id="4AD-Fc-YUK">
                                                 <rect key="frame" x="267" y="849" width="100" height="150"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="a-kind-of-mirraculas-paradise-1513795428" translatesAutoresizingMaskIntoConstraints="NO" id="NWq-d6-XQU">
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="how-to-stop-time-1513795664" translatesAutoresizingMaskIntoConstraints="NO" id="NWq-d6-XQU">
                                                 <rect key="frame" x="267" y="1007" width="100" height="150"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="a-kind-of-mirraculas-paradise-1513795428" translatesAutoresizingMaskIntoConstraints="NO" id="UwS-L5-rEe">
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="an-american-marriage-1513795586" translatesAutoresizingMaskIntoConstraints="NO" id="UwS-L5-rEe">
                                                 <rect key="frame" x="267" y="1165" width="100" height="150"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="a-kind-of-mirraculas-paradise-1513795428" translatesAutoresizingMaskIntoConstraints="NO" id="zGA-Wc-NdV">
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="neon-in-daylight-1513795392" translatesAutoresizingMaskIntoConstraints="NO" id="zGA-Wc-NdV">
                                                 <rect key="frame" x="267" y="1323" width="100" height="150"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
@@ -271,5 +271,31 @@
         <image name="1814095-24" width="24" height="24"/>
         <image name="925910-24" width="24" height="24"/>
         <image name="a-kind-of-mirraculas-paradise-1513795428" width="980" height="1480"/>
+        <image name="amy-bloom-1513795922" width="679" height="1024"/>
+        <image name="an-american-marriage-1513795586" width="980" height="1489"/>
+        <image name="and-now-we-have-everything-1513795900" width="980" height="1469"/>
+        <image name="back-talk-1513795644" width="980" height="1500"/>
+        <image name="circe-1513795820" width="419" height="630"/>
+        <image name="feel-free-1513795562" width="980" height="1498"/>
+        <image name="freshwater-1513795541" width="980" height="1527"/>
+        <image name="heart-berries-1513795521" width="980" height="1568"/>
+        <image name="how-to-stop-time-1513795664" width="980" height="1381"/>
+        <image name="how-to-write-an-autobiographical-novel-1513795939" width="680" height="1024"/>
+        <image name="laura-and-emma-1513795738" width="980" height="1443"/>
+        <image name="neon-in-daylight-1513795392" width="980" height="1511"/>
+        <image name="oliver-loving-1513795452" width="845" height="1277"/>
+        <image name="red-clocks-1513795413" width="980" height="1480"/>
+        <image name="sharp-1513795881" width="980" height="1467"/>
+        <image name="some-hell-1513795701" width="980" height="1469"/>
+        <image name="tangerine-1513795958" width="664" height="1000"/>
+        <image name="the-female-persuasion-1513795865" width="478" height="720"/>
+        <image name="the-hazel-wood-1513795473" width="661" height="1000"/>
+        <image name="the-house-of-impossible-beauties-1513795682" width="664" height="1000"/>
+        <image name="the-line-becomes-a-river-1513795626" width="794" height="1200"/>
+        <image name="the-merry-spinster-1513795764" width="980" height="1470"/>
+        <image name="the-recovering-1513795841" width="980" height="1519"/>
+        <image name="the-sparsholt-affair-1513795718" width="457" height="700"/>
+        <image name="this-will-be-my-undoing-1513795492" width="798" height="1200"/>
+        <image name="what-are-we-doing-here-1513795607" width="980" height="1470"/>
     </resources>
 </document>
