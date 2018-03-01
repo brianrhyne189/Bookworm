@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7D076F5E2048516B0086B430 /* Check-Out.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D076F5D2048516B0086B430 /* Check-Out.swift */; };
 		7D72B727203B201F001BB9D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D72B726203B201F001BB9D9 /* AppDelegate.swift */; };
 		7D72B72A203B201F001BB9D9 /* Bookworm.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7D72B728203B201F001BB9D9 /* Bookworm.xcdatamodeld */; };
 		7D72B72C203B201F001BB9D9 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D72B72B203B201F001BB9D9 /* MasterViewController.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7D076F5D2048516B0086B430 /* Check-Out.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Check-Out.swift"; sourceTree = "<group>"; };
 		7D72B723203B201F001BB9D9 /* Bookworm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bookworm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D72B726203B201F001BB9D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7D72B729203B201F001BB9D9 /* Bookworm.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Bookworm.xcdatamodel; sourceTree = "<group>"; };
@@ -58,6 +60,7 @@
 		7D72B725203B201F001BB9D9 /* Bookworm */ = {
 			isa = PBXGroup;
 			children = (
+				7D076F5D2048516B0086B430 /* Check-Out.swift */,
 				7D72B726203B201F001BB9D9 /* AppDelegate.swift */,
 				7D72B72B203B201F001BB9D9 /* MasterViewController.swift */,
 				7D72B72D203B201F001BB9D9 /* DetailViewController.swift */,
@@ -143,6 +146,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7D72B727203B201F001BB9D9 /* AppDelegate.swift in Sources */,
+				7D076F5E2048516B0086B430 /* Check-Out.swift in Sources */,
 				7D72B72A203B201F001BB9D9 /* Bookworm.xcdatamodeld in Sources */,
 				7D72B72C203B201F001BB9D9 /* MasterViewController.swift in Sources */,
 				7D72B72E203B201F001BB9D9 /* DetailViewController.swift in Sources */,
