@@ -384,14 +384,14 @@
         <scene sceneID="H5Z-xc-Dml">
             <objects>
                 <viewController id="Ntu-1x-Wee" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="NoE-S9-6f7">
+                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="NoE-S9-6f7">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="1600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gE4-Xf-9tU">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gE4-Xf-9tU">
                                 <rect key="frame" x="0.0" y="20" width="375" height="1551"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="anq-Qo-Bgv">
+                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="anq-Qo-Bgv">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="1551"/>
                                         <subviews>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="laura-and-emma-1513795738" translatesAutoresizingMaskIntoConstraints="NO" id="B6R-7w-Ru3">
@@ -605,6 +605,30 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="the-recovering-1513795841"/>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="The Recovering                                                             By " textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SQk-K6-3Th">
+                                <rect key="frame" x="124" y="69" width="235" height="102"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5fn-lc-sPj">
+                                <rect key="frame" x="134" y="603" width="106" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="17"/>
+                                <state key="normal" title="Reserve">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Ym9-jQ-WRb">
+                                <rect key="frame" x="16" y="179" width="343" height="416"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">Middle school hasn’t been going well for Colin. His teenage sister teases him mercilessly, his autistic brother lashes out at him, and he has a crush on his best friend, Andy. But after the tragic night when his father commits suicide, none of that matters. Diane, his mother, seeks solace in therapy. Colin is awash in guilt, and casts about for someone to confide in: first his estranged grandfather, then a predatory science teacher. But nothing helps as much as the strange writing his father kept in a series of notebooks locked in his study. Colin looks for answers there―in fragments about disaster scenarios, the violence of snow, mustangs running wild in the west―but instead finds the writing infecting his worldview. Diane, meanwhile, has a miserable fling with a co-worker, and leans more heavily on Colin for support as things go from bad to worse. But spring is unfolding, and a road trip to Los Angeles gives them a tantalizing glimpse of what the future might hold. In Some Hell, a debut novel of devastating intensity and aching, pointillistic detail, Patrick Nathan shows how unspeakable tragedy shapes a life, and how imagination saves us from ourselves.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.99143940210000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="GK9-zY-DQK"/>
@@ -635,6 +659,30 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="what-are-we-doing-here-1513795607"/>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="What Are We Doing Here?                                                            By " textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WTK-Cx-zjj">
+                                <rect key="frame" x="124" y="69" width="235" height="102"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="avT-n8-buw">
+                                <rect key="frame" x="134" y="603" width="106" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="17"/>
+                                <state key="normal" title="Reserve">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Sky-8V-dMS">
+                                <rect key="frame" x="16" y="179" width="343" height="416"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">Middle school hasn’t been going well for Colin. His teenage sister teases him mercilessly, his autistic brother lashes out at him, and he has a crush on his best friend, Andy. But after the tragic night when his father commits suicide, none of that matters. Diane, his mother, seeks solace in therapy. Colin is awash in guilt, and casts about for someone to confide in: first his estranged grandfather, then a predatory science teacher. But nothing helps as much as the strange writing his father kept in a series of notebooks locked in his study. Colin looks for answers there―in fragments about disaster scenarios, the violence of snow, mustangs running wild in the west―but instead finds the writing infecting his worldview. Diane, meanwhile, has a miserable fling with a co-worker, and leans more heavily on Colin for support as things go from bad to worse. But spring is unfolding, and a road trip to Los Angeles gives them a tantalizing glimpse of what the future might hold. In Some Hell, a debut novel of devastating intensity and aching, pointillistic detail, Patrick Nathan shows how unspeakable tragedy shapes a life, and how imagination saves us from ourselves.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.99143940210000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="qUc-Kd-Z0v"/>
@@ -665,6 +713,30 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="the-merry-spinster-1513795764"/>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="The Merry Spinster                                                            By " textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aqh-5T-gmx">
+                                <rect key="frame" x="124" y="69" width="235" height="102"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="joI-N7-D8z">
+                                <rect key="frame" x="134" y="603" width="106" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="17"/>
+                                <state key="normal" title="Reserve">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="SnI-DQ-UOZ">
+                                <rect key="frame" x="16" y="179" width="343" height="416"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">Middle school hasn’t been going well for Colin. His teenage sister teases him mercilessly, his autistic brother lashes out at him, and he has a crush on his best friend, Andy. But after the tragic night when his father commits suicide, none of that matters. Diane, his mother, seeks solace in therapy. Colin is awash in guilt, and casts about for someone to confide in: first his estranged grandfather, then a predatory science teacher. But nothing helps as much as the strange writing his father kept in a series of notebooks locked in his study. Colin looks for answers there―in fragments about disaster scenarios, the violence of snow, mustangs running wild in the west―but instead finds the writing infecting his worldview. Diane, meanwhile, has a miserable fling with a co-worker, and leans more heavily on Colin for support as things go from bad to worse. But spring is unfolding, and a road trip to Los Angeles gives them a tantalizing glimpse of what the future might hold. In Some Hell, a debut novel of devastating intensity and aching, pointillistic detail, Patrick Nathan shows how unspeakable tragedy shapes a life, and how imagination saves us from ourselves.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.99143940210000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="5kW-kH-zXs"/>
@@ -990,6 +1062,30 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="this-will-be-my-undoing-1513795492"/>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="This Will Be My Undoing                                                            By " textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zej-Rq-zqQ">
+                                <rect key="frame" x="124" y="69" width="235" height="102"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xoo-q4-niD">
+                                <rect key="frame" x="134" y="603" width="106" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="17"/>
+                                <state key="normal" title="Reserve">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="KkZ-IW-J7m">
+                                <rect key="frame" x="16" y="179" width="343" height="416"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">Middle school hasn’t been going well for Colin. His teenage sister teases him mercilessly, his autistic brother lashes out at him, and he has a crush on his best friend, Andy. But after the tragic night when his father commits suicide, none of that matters. Diane, his mother, seeks solace in therapy. Colin is awash in guilt, and casts about for someone to confide in: first his estranged grandfather, then a predatory science teacher. But nothing helps as much as the strange writing his father kept in a series of notebooks locked in his study. Colin looks for answers there―in fragments about disaster scenarios, the violence of snow, mustangs running wild in the west―but instead finds the writing infecting his worldview. Diane, meanwhile, has a miserable fling with a co-worker, and leans more heavily on Colin for support as things go from bad to worse. But spring is unfolding, and a road trip to Los Angeles gives them a tantalizing glimpse of what the future might hold. In Some Hell, a debut novel of devastating intensity and aching, pointillistic detail, Patrick Nathan shows how unspeakable tragedy shapes a life, and how imagination saves us from ourselves.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.99143940210000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="Pby-2Y-bPR"/>
@@ -1020,6 +1116,30 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="the-line-becomes-a-river-1513795626"/>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="The Line Becomes A River                                                            By " textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8gz-BP-jM7">
+                                <rect key="frame" x="124" y="69" width="235" height="102"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="z2b-bD-lKP">
+                                <rect key="frame" x="134" y="603" width="106" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="17"/>
+                                <state key="normal" title="Reserve">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="9dT-Tf-Usi">
+                                <rect key="frame" x="16" y="179" width="343" height="416"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">Middle school hasn’t been going well for Colin. His teenage sister teases him mercilessly, his autistic brother lashes out at him, and he has a crush on his best friend, Andy. But after the tragic night when his father commits suicide, none of that matters. Diane, his mother, seeks solace in therapy. Colin is awash in guilt, and casts about for someone to confide in: first his estranged grandfather, then a predatory science teacher. But nothing helps as much as the strange writing his father kept in a series of notebooks locked in his study. Colin looks for answers there―in fragments about disaster scenarios, the violence of snow, mustangs running wild in the west―but instead finds the writing infecting his worldview. Diane, meanwhile, has a miserable fling with a co-worker, and leans more heavily on Colin for support as things go from bad to worse. But spring is unfolding, and a road trip to Los Angeles gives them a tantalizing glimpse of what the future might hold. In Some Hell, a debut novel of devastating intensity and aching, pointillistic detail, Patrick Nathan shows how unspeakable tragedy shapes a life, and how imagination saves us from ourselves.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.99143940210000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="gF7-5I-67v"/>
@@ -1050,6 +1170,30 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="back-talk-1513795644"/>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Back Talk                                                            By " textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BRy-JB-Sui">
+                                <rect key="frame" x="124" y="69" width="235" height="102"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ts6-aQ-Y49">
+                                <rect key="frame" x="134" y="603" width="106" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="17"/>
+                                <state key="normal" title="Reserve">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="aQO-Bb-x2g">
+                                <rect key="frame" x="16" y="179" width="343" height="416"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">Middle school hasn’t been going well for Colin. His teenage sister teases him mercilessly, his autistic brother lashes out at him, and he has a crush on his best friend, Andy. But after the tragic night when his father commits suicide, none of that matters. Diane, his mother, seeks solace in therapy. Colin is awash in guilt, and casts about for someone to confide in: first his estranged grandfather, then a predatory science teacher. But nothing helps as much as the strange writing his father kept in a series of notebooks locked in his study. Colin looks for answers there―in fragments about disaster scenarios, the violence of snow, mustangs running wild in the west―but instead finds the writing infecting his worldview. Diane, meanwhile, has a miserable fling with a co-worker, and leans more heavily on Colin for support as things go from bad to worse. But spring is unfolding, and a road trip to Los Angeles gives them a tantalizing glimpse of what the future might hold. In Some Hell, a debut novel of devastating intensity and aching, pointillistic detail, Patrick Nathan shows how unspeakable tragedy shapes a life, and how imagination saves us from ourselves.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.99143940210000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="rpD-Jz-5fL"/>
@@ -1080,6 +1224,30 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="the-house-of-impossible-beauties-1513795682"/>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="The House of Impossible Beauties                                                            By " textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3zo-CK-r58">
+                                <rect key="frame" x="124" y="69" width="235" height="102"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IQC-7p-vap">
+                                <rect key="frame" x="134" y="603" width="106" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="17"/>
+                                <state key="normal" title="Reserve">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="bQc-6M-7cH">
+                                <rect key="frame" x="16" y="179" width="343" height="416"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">Middle school hasn’t been going well for Colin. His teenage sister teases him mercilessly, his autistic brother lashes out at him, and he has a crush on his best friend, Andy. But after the tragic night when his father commits suicide, none of that matters. Diane, his mother, seeks solace in therapy. Colin is awash in guilt, and casts about for someone to confide in: first his estranged grandfather, then a predatory science teacher. But nothing helps as much as the strange writing his father kept in a series of notebooks locked in his study. Colin looks for answers there―in fragments about disaster scenarios, the violence of snow, mustangs running wild in the west―but instead finds the writing infecting his worldview. Diane, meanwhile, has a miserable fling with a co-worker, and leans more heavily on Colin for support as things go from bad to worse. But spring is unfolding, and a road trip to Los Angeles gives them a tantalizing glimpse of what the future might hold. In Some Hell, a debut novel of devastating intensity and aching, pointillistic detail, Patrick Nathan shows how unspeakable tragedy shapes a life, and how imagination saves us from ourselves.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.99143940210000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="Pb0-oj-kUi"/>
@@ -1110,6 +1278,30 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="the-hazel-wood-1513795473"/>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="The Hazel Wood                                                            By " textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zLp-za-TX2">
+                                <rect key="frame" x="124" y="69" width="235" height="102"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0uR-7z-Cxu">
+                                <rect key="frame" x="134" y="603" width="106" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="17"/>
+                                <state key="normal" title="Reserve">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Uqf-fD-4oJ">
+                                <rect key="frame" x="16" y="179" width="343" height="416"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">Middle school hasn’t been going well for Colin. His teenage sister teases him mercilessly, his autistic brother lashes out at him, and he has a crush on his best friend, Andy. But after the tragic night when his father commits suicide, none of that matters. Diane, his mother, seeks solace in therapy. Colin is awash in guilt, and casts about for someone to confide in: first his estranged grandfather, then a predatory science teacher. But nothing helps as much as the strange writing his father kept in a series of notebooks locked in his study. Colin looks for answers there―in fragments about disaster scenarios, the violence of snow, mustangs running wild in the west―but instead finds the writing infecting his worldview. Diane, meanwhile, has a miserable fling with a co-worker, and leans more heavily on Colin for support as things go from bad to worse. But spring is unfolding, and a road trip to Los Angeles gives them a tantalizing glimpse of what the future might hold. In Some Hell, a debut novel of devastating intensity and aching, pointillistic detail, Patrick Nathan shows how unspeakable tragedy shapes a life, and how imagination saves us from ourselves.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.99143940210000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="uzh-oH-Gq4"/>
@@ -1140,6 +1332,30 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="the-female-persuasion-1513795865"/>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="The Female Persuasion                                                            By " textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Oof-8O-UNu">
+                                <rect key="frame" x="124" y="69" width="235" height="102"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lf5-Bj-49S">
+                                <rect key="frame" x="134" y="603" width="106" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="17"/>
+                                <state key="normal" title="Reserve">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="btk-JU-IeN">
+                                <rect key="frame" x="16" y="179" width="343" height="416"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">Middle school hasn’t been going well for Colin. His teenage sister teases him mercilessly, his autistic brother lashes out at him, and he has a crush on his best friend, Andy. But after the tragic night when his father commits suicide, none of that matters. Diane, his mother, seeks solace in therapy. Colin is awash in guilt, and casts about for someone to confide in: first his estranged grandfather, then a predatory science teacher. But nothing helps as much as the strange writing his father kept in a series of notebooks locked in his study. Colin looks for answers there―in fragments about disaster scenarios, the violence of snow, mustangs running wild in the west―but instead finds the writing infecting his worldview. Diane, meanwhile, has a miserable fling with a co-worker, and leans more heavily on Colin for support as things go from bad to worse. But spring is unfolding, and a road trip to Los Angeles gives them a tantalizing glimpse of what the future might hold. In Some Hell, a debut novel of devastating intensity and aching, pointillistic detail, Patrick Nathan shows how unspeakable tragedy shapes a life, and how imagination saves us from ourselves.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.99143940210000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="Jge-SB-070"/>
@@ -1170,6 +1386,30 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="some-hell-1513795701"/>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Some Hell                                                            By " textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cFQ-mf-6UL">
+                                <rect key="frame" x="124" y="69" width="235" height="102"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Ge-Fk-Kpl">
+                                <rect key="frame" x="134" y="603" width="106" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="17"/>
+                                <state key="normal" title="Reserve">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="t6Q-J3-bB8">
+                                <rect key="frame" x="16" y="179" width="343" height="416"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">Middle school hasn’t been going well for Colin. His teenage sister teases him mercilessly, his autistic brother lashes out at him, and he has a crush on his best friend, Andy. But after the tragic night when his father commits suicide, none of that matters. Diane, his mother, seeks solace in therapy. Colin is awash in guilt, and casts about for someone to confide in: first his estranged grandfather, then a predatory science teacher. But nothing helps as much as the strange writing his father kept in a series of notebooks locked in his study. Colin looks for answers there―in fragments about disaster scenarios, the violence of snow, mustangs running wild in the west―but instead finds the writing infecting his worldview. Diane, meanwhile, has a miserable fling with a co-worker, and leans more heavily on Colin for support as things go from bad to worse. But spring is unfolding, and a road trip to Los Angeles gives them a tantalizing glimpse of what the future might hold. In Some Hell, a debut novel of devastating intensity and aching, pointillistic detail, Patrick Nathan shows how unspeakable tragedy shapes a life, and how imagination saves us from ourselves.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.99143940210000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="YMq-4f-900"/>
@@ -1177,7 +1417,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sAp-33-eB6" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-5103" y="-2564"/>
+            <point key="canvasLocation" x="-5103.1999999999998" y="-2565.0674662668666"/>
         </scene>
         <!--Tangerine-->
         <scene sceneID="3cI-Wt-8L3">
@@ -1200,6 +1440,30 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="tangerine-1513795958"/>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Tangerine                                                            By " textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lsW-lf-FVl">
+                                <rect key="frame" x="124" y="69" width="235" height="102"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fYL-hv-IBe">
+                                <rect key="frame" x="134" y="603" width="106" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="17"/>
+                                <state key="normal" title="Reserve">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="I35-eN-PB4">
+                                <rect key="frame" x="16" y="179" width="343" height="416"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">Middle school hasn’t been going well for Colin. His teenage sister teases him mercilessly, his autistic brother lashes out at him, and he has a crush on his best friend, Andy. But after the tragic night when his father commits suicide, none of that matters. Diane, his mother, seeks solace in therapy. Colin is awash in guilt, and casts about for someone to confide in: first his estranged grandfather, then a predatory science teacher. But nothing helps as much as the strange writing his father kept in a series of notebooks locked in his study. Colin looks for answers there―in fragments about disaster scenarios, the violence of snow, mustangs running wild in the west―but instead finds the writing infecting his worldview. Diane, meanwhile, has a miserable fling with a co-worker, and leans more heavily on Colin for support as things go from bad to worse. But spring is unfolding, and a road trip to Los Angeles gives them a tantalizing glimpse of what the future might hold. In Some Hell, a debut novel of devastating intensity and aching, pointillistic detail, Patrick Nathan shows how unspeakable tragedy shapes a life, and how imagination saves us from ourselves.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.99143940210000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="7yO-5u-ueo"/>
@@ -1230,6 +1494,30 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="oliver-loving-1513795452"/>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Oliver Loving                                                            By " textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fof-Kl-yk4">
+                                <rect key="frame" x="124" y="69" width="235" height="102"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kWW-iP-zIs">
+                                <rect key="frame" x="134" y="603" width="106" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="17"/>
+                                <state key="normal" title="Reserve">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="4gv-Qg-P34">
+                                <rect key="frame" x="16" y="179" width="343" height="416"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">Middle school hasn’t been going well for Colin. His teenage sister teases him mercilessly, his autistic brother lashes out at him, and he has a crush on his best friend, Andy. But after the tragic night when his father commits suicide, none of that matters. Diane, his mother, seeks solace in therapy. Colin is awash in guilt, and casts about for someone to confide in: first his estranged grandfather, then a predatory science teacher. But nothing helps as much as the strange writing his father kept in a series of notebooks locked in his study. Colin looks for answers there―in fragments about disaster scenarios, the violence of snow, mustangs running wild in the west―but instead finds the writing infecting his worldview. Diane, meanwhile, has a miserable fling with a co-worker, and leans more heavily on Colin for support as things go from bad to worse. But spring is unfolding, and a road trip to Los Angeles gives them a tantalizing glimpse of what the future might hold. In Some Hell, a debut novel of devastating intensity and aching, pointillistic detail, Patrick Nathan shows how unspeakable tragedy shapes a life, and how imagination saves us from ourselves.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.99143940210000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="39i-K8-a74"/>
@@ -1259,6 +1547,30 @@
                                 <rect key="frame" x="16" y="20" width="100" height="150"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Laura &amp; Emma                                                            By " textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sZ6-l6-jEd">
+                                <rect key="frame" x="124" y="68" width="235" height="102"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9oR-fO-SYb">
+                                <rect key="frame" x="134" y="603" width="106" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="17"/>
+                                <state key="normal" title="Reserve">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="K28-2r-rLx">
+                                <rect key="frame" x="16" y="178" width="343" height="416"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">Middle school hasn’t been going well for Colin. His teenage sister teases him mercilessly, his autistic brother lashes out at him, and he has a crush on his best friend, Andy. But after the tragic night when his father commits suicide, none of that matters. Diane, his mother, seeks solace in therapy. Colin is awash in guilt, and casts about for someone to confide in: first his estranged grandfather, then a predatory science teacher. But nothing helps as much as the strange writing his father kept in a series of notebooks locked in his study. Colin looks for answers there―in fragments about disaster scenarios, the violence of snow, mustangs running wild in the west―but instead finds the writing infecting his worldview. Diane, meanwhile, has a miserable fling with a co-worker, and leans more heavily on Colin for support as things go from bad to worse. But spring is unfolding, and a road trip to Los Angeles gives them a tantalizing glimpse of what the future might hold. In Some Hell, a debut novel of devastating intensity and aching, pointillistic detail, Patrick Nathan shows how unspeakable tragedy shapes a life, and how imagination saves us from ourselves.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.99143940210000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="Py9-Io-xtV"/>
@@ -1288,6 +1600,30 @@
                                 <rect key="frame" x="16" y="20" width="100" height="150"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Sharp                                                           By " textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wxp-5b-ouR">
+                                <rect key="frame" x="124" y="68" width="235" height="102"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sw3-tn-Hn8">
+                                <rect key="frame" x="134" y="603" width="106" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="17"/>
+                                <state key="normal" title="Reserve">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="UeW-Sf-kAV">
+                                <rect key="frame" x="16" y="178" width="343" height="416"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">Middle school hasn’t been going well for Colin. His teenage sister teases him mercilessly, his autistic brother lashes out at him, and he has a crush on his best friend, Andy. But after the tragic night when his father commits suicide, none of that matters. Diane, his mother, seeks solace in therapy. Colin is awash in guilt, and casts about for someone to confide in: first his estranged grandfather, then a predatory science teacher. But nothing helps as much as the strange writing his father kept in a series of notebooks locked in his study. Colin looks for answers there―in fragments about disaster scenarios, the violence of snow, mustangs running wild in the west―but instead finds the writing infecting his worldview. Diane, meanwhile, has a miserable fling with a co-worker, and leans more heavily on Colin for support as things go from bad to worse. But spring is unfolding, and a road trip to Los Angeles gives them a tantalizing glimpse of what the future might hold. In Some Hell, a debut novel of devastating intensity and aching, pointillistic detail, Patrick Nathan shows how unspeakable tragedy shapes a life, and how imagination saves us from ourselves.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.99143940210000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="Ohc-Ix-D0I"/>
@@ -1317,6 +1653,30 @@
                                 <rect key="frame" x="16" y="20" width="100" height="150"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Red Clocks                                                            By " textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R4a-cR-Hzg">
+                                <rect key="frame" x="124" y="68" width="235" height="102"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OTw-Hg-PK3">
+                                <rect key="frame" x="134" y="603" width="106" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="17"/>
+                                <state key="normal" title="Reserve">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="OVP-ak-FK0">
+                                <rect key="frame" x="16" y="178" width="343" height="416"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">Middle school hasn’t been going well for Colin. His teenage sister teases him mercilessly, his autistic brother lashes out at him, and he has a crush on his best friend, Andy. But after the tragic night when his father commits suicide, none of that matters. Diane, his mother, seeks solace in therapy. Colin is awash in guilt, and casts about for someone to confide in: first his estranged grandfather, then a predatory science teacher. But nothing helps as much as the strange writing his father kept in a series of notebooks locked in his study. Colin looks for answers there―in fragments about disaster scenarios, the violence of snow, mustangs running wild in the west―but instead finds the writing infecting his worldview. Diane, meanwhile, has a miserable fling with a co-worker, and leans more heavily on Colin for support as things go from bad to worse. But spring is unfolding, and a road trip to Los Angeles gives them a tantalizing glimpse of what the future might hold. In Some Hell, a debut novel of devastating intensity and aching, pointillistic detail, Patrick Nathan shows how unspeakable tragedy shapes a life, and how imagination saves us from ourselves.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.99143940210000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="Dr1-AP-XKg"/>
@@ -1346,6 +1706,30 @@
                                 <rect key="frame" x="16" y="20" width="100" height="150"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="How to Write an Aurobriographical Novel                                                            By " textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3K1-g6-9XF">
+                                <rect key="frame" x="124" y="68" width="235" height="102"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iCc-zc-klv">
+                                <rect key="frame" x="134" y="603" width="106" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="17"/>
+                                <state key="normal" title="Reserve">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="icq-46-gTb">
+                                <rect key="frame" x="16" y="178" width="343" height="416"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">Middle school hasn’t been going well for Colin. His teenage sister teases him mercilessly, his autistic brother lashes out at him, and he has a crush on his best friend, Andy. But after the tragic night when his father commits suicide, none of that matters. Diane, his mother, seeks solace in therapy. Colin is awash in guilt, and casts about for someone to confide in: first his estranged grandfather, then a predatory science teacher. But nothing helps as much as the strange writing his father kept in a series of notebooks locked in his study. Colin looks for answers there―in fragments about disaster scenarios, the violence of snow, mustangs running wild in the west―but instead finds the writing infecting his worldview. Diane, meanwhile, has a miserable fling with a co-worker, and leans more heavily on Colin for support as things go from bad to worse. But spring is unfolding, and a road trip to Los Angeles gives them a tantalizing glimpse of what the future might hold. In Some Hell, a debut novel of devastating intensity and aching, pointillistic detail, Patrick Nathan shows how unspeakable tragedy shapes a life, and how imagination saves us from ourselves.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.99143940210000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="eeW-xK-jxc"/>
@@ -1375,6 +1759,30 @@
                                 <rect key="frame" x="16" y="20" width="100" height="150"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Freshwater                                                            By " textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jwa-Sp-tzu">
+                                <rect key="frame" x="124" y="68" width="235" height="102"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eI9-hq-OVM">
+                                <rect key="frame" x="134" y="603" width="106" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="17"/>
+                                <state key="normal" title="Reserve">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="X6s-5Q-wcu">
+                                <rect key="frame" x="16" y="178" width="343" height="416"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">Middle school hasn’t been going well for Colin. His teenage sister teases him mercilessly, his autistic brother lashes out at him, and he has a crush on his best friend, Andy. But after the tragic night when his father commits suicide, none of that matters. Diane, his mother, seeks solace in therapy. Colin is awash in guilt, and casts about for someone to confide in: first his estranged grandfather, then a predatory science teacher. But nothing helps as much as the strange writing his father kept in a series of notebooks locked in his study. Colin looks for answers there―in fragments about disaster scenarios, the violence of snow, mustangs running wild in the west―but instead finds the writing infecting his worldview. Diane, meanwhile, has a miserable fling with a co-worker, and leans more heavily on Colin for support as things go from bad to worse. But spring is unfolding, and a road trip to Los Angeles gives them a tantalizing glimpse of what the future might hold. In Some Hell, a debut novel of devastating intensity and aching, pointillistic detail, Patrick Nathan shows how unspeakable tragedy shapes a life, and how imagination saves us from ourselves.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.99143940210000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="q8K-y9-8gl"/>
@@ -1404,6 +1812,30 @@
                                 <rect key="frame" x="16" y="20" width="100" height="150"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="How To Stop Time                                                            By " textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XW2-fv-GLq">
+                                <rect key="frame" x="124" y="68" width="235" height="102"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mrg-bf-f4J">
+                                <rect key="frame" x="134" y="603" width="106" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="17"/>
+                                <state key="normal" title="Reserve">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="EvE-CP-HNy">
+                                <rect key="frame" x="16" y="178" width="343" height="416"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">Middle school hasn’t been going well for Colin. His teenage sister teases him mercilessly, his autistic brother lashes out at him, and he has a crush on his best friend, Andy. But after the tragic night when his father commits suicide, none of that matters. Diane, his mother, seeks solace in therapy. Colin is awash in guilt, and casts about for someone to confide in: first his estranged grandfather, then a predatory science teacher. But nothing helps as much as the strange writing his father kept in a series of notebooks locked in his study. Colin looks for answers there―in fragments about disaster scenarios, the violence of snow, mustangs running wild in the west―but instead finds the writing infecting his worldview. Diane, meanwhile, has a miserable fling with a co-worker, and leans more heavily on Colin for support as things go from bad to worse. But spring is unfolding, and a road trip to Los Angeles gives them a tantalizing glimpse of what the future might hold. In Some Hell, a debut novel of devastating intensity and aching, pointillistic detail, Patrick Nathan shows how unspeakable tragedy shapes a life, and how imagination saves us from ourselves.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.99143940210000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="cXT-Jc-3OV"/>
@@ -1433,6 +1865,30 @@
                                 <rect key="frame" x="16" y="20" width="100" height="150"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Heart Berries                                                            By " textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xez-Ql-Q0h">
+                                <rect key="frame" x="124" y="68" width="235" height="102"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HTd-eH-Fo6">
+                                <rect key="frame" x="134" y="603" width="106" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="17"/>
+                                <state key="normal" title="Reserve">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="whD-d2-Ft2">
+                                <rect key="frame" x="16" y="178" width="343" height="416"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">Middle school hasn’t been going well for Colin. His teenage sister teases him mercilessly, his autistic brother lashes out at him, and he has a crush on his best friend, Andy. But after the tragic night when his father commits suicide, none of that matters. Diane, his mother, seeks solace in therapy. Colin is awash in guilt, and casts about for someone to confide in: first his estranged grandfather, then a predatory science teacher. But nothing helps as much as the strange writing his father kept in a series of notebooks locked in his study. Colin looks for answers there―in fragments about disaster scenarios, the violence of snow, mustangs running wild in the west―but instead finds the writing infecting his worldview. Diane, meanwhile, has a miserable fling with a co-worker, and leans more heavily on Colin for support as things go from bad to worse. But spring is unfolding, and a road trip to Los Angeles gives them a tantalizing glimpse of what the future might hold. In Some Hell, a debut novel of devastating intensity and aching, pointillistic detail, Patrick Nathan shows how unspeakable tragedy shapes a life, and how imagination saves us from ourselves.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.99143940210000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="3Ce-vl-A4N"/>
@@ -1462,6 +1918,30 @@
                                 <rect key="frame" x="16" y="20" width="100" height="150"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Feel Free                                                            By " textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l1L-oe-JoV">
+                                <rect key="frame" x="124" y="68" width="235" height="102"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f6i-Pk-E21">
+                                <rect key="frame" x="134" y="603" width="106" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="17"/>
+                                <state key="normal" title="Reserve">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="U0O-yn-Cay">
+                                <rect key="frame" x="16" y="178" width="343" height="416"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">Middle school hasn’t been going well for Colin. His teenage sister teases him mercilessly, his autistic brother lashes out at him, and he has a crush on his best friend, Andy. But after the tragic night when his father commits suicide, none of that matters. Diane, his mother, seeks solace in therapy. Colin is awash in guilt, and casts about for someone to confide in: first his estranged grandfather, then a predatory science teacher. But nothing helps as much as the strange writing his father kept in a series of notebooks locked in his study. Colin looks for answers there―in fragments about disaster scenarios, the violence of snow, mustangs running wild in the west―but instead finds the writing infecting his worldview. Diane, meanwhile, has a miserable fling with a co-worker, and leans more heavily on Colin for support as things go from bad to worse. But spring is unfolding, and a road trip to Los Angeles gives them a tantalizing glimpse of what the future might hold. In Some Hell, a debut novel of devastating intensity and aching, pointillistic detail, Patrick Nathan shows how unspeakable tragedy shapes a life, and how imagination saves us from ourselves.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.99143940210000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="De5-8C-Lid"/>
@@ -1491,6 +1971,30 @@
                                 <rect key="frame" x="16" y="20" width="100" height="150"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="An American Marriage                                                            By " textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qLV-Rc-sIw">
+                                <rect key="frame" x="124" y="68" width="235" height="102"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wVt-TX-Dlt">
+                                <rect key="frame" x="134" y="603" width="106" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="17"/>
+                                <state key="normal" title="Reserve">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="84e-S1-pKR">
+                                <rect key="frame" x="16" y="178" width="343" height="416"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">Middle school hasn’t been going well for Colin. His teenage sister teases him mercilessly, his autistic brother lashes out at him, and he has a crush on his best friend, Andy. But after the tragic night when his father commits suicide, none of that matters. Diane, his mother, seeks solace in therapy. Colin is awash in guilt, and casts about for someone to confide in: first his estranged grandfather, then a predatory science teacher. But nothing helps as much as the strange writing his father kept in a series of notebooks locked in his study. Colin looks for answers there―in fragments about disaster scenarios, the violence of snow, mustangs running wild in the west―but instead finds the writing infecting his worldview. Diane, meanwhile, has a miserable fling with a co-worker, and leans more heavily on Colin for support as things go from bad to worse. But spring is unfolding, and a road trip to Los Angeles gives them a tantalizing glimpse of what the future might hold. In Some Hell, a debut novel of devastating intensity and aching, pointillistic detail, Patrick Nathan shows how unspeakable tragedy shapes a life, and how imagination saves us from ourselves.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.99143940210000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="WnF-PP-U2A"/>
@@ -1521,6 +2025,30 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="a-kind-of-mirraculas-paradise-1513795428"/>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="A Kind of Mirraculas Paradise                                                            By " textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VGR-4C-O1M">
+                                <rect key="frame" x="124" y="69" width="235" height="102"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Evd-tv-fOm">
+                                <rect key="frame" x="134" y="603" width="106" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="17"/>
+                                <state key="normal" title="Reserve">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="mG4-sM-Ls2">
+                                <rect key="frame" x="16" y="179" width="343" height="416"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">Middle school hasn’t been going well for Colin. His teenage sister teases him mercilessly, his autistic brother lashes out at him, and he has a crush on his best friend, Andy. But after the tragic night when his father commits suicide, none of that matters. Diane, his mother, seeks solace in therapy. Colin is awash in guilt, and casts about for someone to confide in: first his estranged grandfather, then a predatory science teacher. But nothing helps as much as the strange writing his father kept in a series of notebooks locked in his study. Colin looks for answers there―in fragments about disaster scenarios, the violence of snow, mustangs running wild in the west―but instead finds the writing infecting his worldview. Diane, meanwhile, has a miserable fling with a co-worker, and leans more heavily on Colin for support as things go from bad to worse. But spring is unfolding, and a road trip to Los Angeles gives them a tantalizing glimpse of what the future might hold. In Some Hell, a debut novel of devastating intensity and aching, pointillistic detail, Patrick Nathan shows how unspeakable tragedy shapes a life, and how imagination saves us from ourselves.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.99143940210000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="Xg0-wr-XDW"/>
@@ -1551,6 +2079,30 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="the-sparsholt-affair-1513795718"/>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="The Sparshold Affair                                                            By " textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZN6-GK-SBw">
+                                <rect key="frame" x="124" y="69" width="235" height="102"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6mf-CP-j3U">
+                                <rect key="frame" x="134" y="603" width="106" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="17"/>
+                                <state key="normal" title="Reserve">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="6MZ-yD-ppJ">
+                                <rect key="frame" x="16" y="179" width="343" height="416"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">Middle school hasn’t been going well for Colin. His teenage sister teases him mercilessly, his autistic brother lashes out at him, and he has a crush on his best friend, Andy. But after the tragic night when his father commits suicide, none of that matters. Diane, his mother, seeks solace in therapy. Colin is awash in guilt, and casts about for someone to confide in: first his estranged grandfather, then a predatory science teacher. But nothing helps as much as the strange writing his father kept in a series of notebooks locked in his study. Colin looks for answers there―in fragments about disaster scenarios, the violence of snow, mustangs running wild in the west―but instead finds the writing infecting his worldview. Diane, meanwhile, has a miserable fling with a co-worker, and leans more heavily on Colin for support as things go from bad to worse. But spring is unfolding, and a road trip to Los Angeles gives them a tantalizing glimpse of what the future might hold. In Some Hell, a debut novel of devastating intensity and aching, pointillistic detail, Patrick Nathan shows how unspeakable tragedy shapes a life, and how imagination saves us from ourselves.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.99143940210000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="ZFE-Hg-8HO"/>
@@ -1581,6 +2133,30 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="amy-bloom-1513795922"/>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Amy Bloom                                                            By " textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7NU-my-cGZ">
+                                <rect key="frame" x="124" y="69" width="235" height="102"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wgZ-PI-t2d">
+                                <rect key="frame" x="134" y="603" width="106" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="17"/>
+                                <state key="normal" title="Reserve">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="ihM-5e-kJW">
+                                <rect key="frame" x="16" y="179" width="343" height="416"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">Middle school hasn’t been going well for Colin. His teenage sister teases him mercilessly, his autistic brother lashes out at him, and he has a crush on his best friend, Andy. But after the tragic night when his father commits suicide, none of that matters. Diane, his mother, seeks solace in therapy. Colin is awash in guilt, and casts about for someone to confide in: first his estranged grandfather, then a predatory science teacher. But nothing helps as much as the strange writing his father kept in a series of notebooks locked in his study. Colin looks for answers there―in fragments about disaster scenarios, the violence of snow, mustangs running wild in the west―but instead finds the writing infecting his worldview. Diane, meanwhile, has a miserable fling with a co-worker, and leans more heavily on Colin for support as things go from bad to worse. But spring is unfolding, and a road trip to Los Angeles gives them a tantalizing glimpse of what the future might hold. In Some Hell, a debut novel of devastating intensity and aching, pointillistic detail, Patrick Nathan shows how unspeakable tragedy shapes a life, and how imagination saves us from ourselves.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.99143940210000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="LCS-Ps-JSE"/>
@@ -1610,6 +2186,30 @@
                                 <rect key="frame" x="16" y="20" width="100" height="150"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="And Now We Have Everything                                                            By " textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ie2-6e-wRS">
+                                <rect key="frame" x="124" y="68" width="235" height="102"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oad-vH-Vbi">
+                                <rect key="frame" x="134" y="603" width="106" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="17"/>
+                                <state key="normal" title="Reserve">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="WQn-qe-i2c">
+                                <rect key="frame" x="16" y="178" width="343" height="416"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">Middle school hasn’t been going well for Colin. His teenage sister teases him mercilessly, his autistic brother lashes out at him, and he has a crush on his best friend, Andy. But after the tragic night when his father commits suicide, none of that matters. Diane, his mother, seeks solace in therapy. Colin is awash in guilt, and casts about for someone to confide in: first his estranged grandfather, then a predatory science teacher. But nothing helps as much as the strange writing his father kept in a series of notebooks locked in his study. Colin looks for answers there―in fragments about disaster scenarios, the violence of snow, mustangs running wild in the west―but instead finds the writing infecting his worldview. Diane, meanwhile, has a miserable fling with a co-worker, and leans more heavily on Colin for support as things go from bad to worse. But spring is unfolding, and a road trip to Los Angeles gives them a tantalizing glimpse of what the future might hold. In Some Hell, a debut novel of devastating intensity and aching, pointillistic detail, Patrick Nathan shows how unspeakable tragedy shapes a life, and how imagination saves us from ourselves.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.99143940210000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="fql-Xd-Cgv"/>
@@ -1617,7 +2217,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WIb-X4-ane" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-5103" y="221"/>
+            <point key="canvasLocation" x="-5103.1999999999998" y="220.83958020989508"/>
         </scene>
         <!--Circle-->
         <scene sceneID="j0M-QV-tSO">
@@ -1639,6 +2239,30 @@
                                 <rect key="frame" x="16" y="20" width="100" height="150"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Circle                                                            By " textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mTb-9k-bdt">
+                                <rect key="frame" x="124" y="68" width="235" height="102"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gRo-6b-vG5">
+                                <rect key="frame" x="134" y="603" width="106" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="17"/>
+                                <state key="normal" title="Reserve">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Yf5-iB-0ns">
+                                <rect key="frame" x="16" y="178" width="343" height="416"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">Middle school hasn’t been going well for Colin. His teenage sister teases him mercilessly, his autistic brother lashes out at him, and he has a crush on his best friend, Andy. But after the tragic night when his father commits suicide, none of that matters. Diane, his mother, seeks solace in therapy. Colin is awash in guilt, and casts about for someone to confide in: first his estranged grandfather, then a predatory science teacher. But nothing helps as much as the strange writing his father kept in a series of notebooks locked in his study. Colin looks for answers there―in fragments about disaster scenarios, the violence of snow, mustangs running wild in the west―but instead finds the writing infecting his worldview. Diane, meanwhile, has a miserable fling with a co-worker, and leans more heavily on Colin for support as things go from bad to worse. But spring is unfolding, and a road trip to Los Angeles gives them a tantalizing glimpse of what the future might hold. In Some Hell, a debut novel of devastating intensity and aching, pointillistic detail, Patrick Nathan shows how unspeakable tragedy shapes a life, and how imagination saves us from ourselves.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.99143940210000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="gMm-6J-bWs"/>
@@ -1668,6 +2292,30 @@
                                 <rect key="frame" x="16" y="20" width="100" height="150"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Neon In Daylight                                                            By " textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tkn-Eu-2w1">
+                                <rect key="frame" x="124" y="68" width="235" height="102"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LMQ-Jh-UA5">
+                                <rect key="frame" x="134" y="603" width="106" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="17"/>
+                                <state key="normal" title="Reserve">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="iaQ-39-fcS">
+                                <rect key="frame" x="16" y="178" width="343" height="416"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">Middle school hasn’t been going well for Colin. His teenage sister teases him mercilessly, his autistic brother lashes out at him, and he has a crush on his best friend, Andy. But after the tragic night when his father commits suicide, none of that matters. Diane, his mother, seeks solace in therapy. Colin is awash in guilt, and casts about for someone to confide in: first his estranged grandfather, then a predatory science teacher. But nothing helps as much as the strange writing his father kept in a series of notebooks locked in his study. Colin looks for answers there―in fragments about disaster scenarios, the violence of snow, mustangs running wild in the west―but instead finds the writing infecting his worldview. Diane, meanwhile, has a miserable fling with a co-worker, and leans more heavily on Colin for support as things go from bad to worse. But spring is unfolding, and a road trip to Los Angeles gives them a tantalizing glimpse of what the future might hold. In Some Hell, a debut novel of devastating intensity and aching, pointillistic detail, Patrick Nathan shows how unspeakable tragedy shapes a life, and how imagination saves us from ourselves.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.99143940210000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="RSl-k6-gL4"/>
@@ -1718,6 +2366,6 @@
         <image name="what-are-we-doing-here-1513795607" width="980" height="1470"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="giS-0K-f1C"/>
+        <segue reference="3lA-ou-njG"/>
     </inferredMetricsTieBreakers>
 </document>
