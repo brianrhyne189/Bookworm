@@ -383,15 +383,16 @@
         <!--Featured Books-->
         <scene sceneID="H5Z-xc-Dml">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ig0-i8-aI9" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="Ntu-1x-Wee" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="NoE-S9-6f7">
+                    <view key="view" contentMode="scaleToFill" id="NoE-S9-6f7">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="1600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gE4-Xf-9tU">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gE4-Xf-9tU">
                                 <rect key="frame" x="0.0" y="20" width="375" height="1551"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="anq-Qo-Bgv">
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="anq-Qo-Bgv">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="1551"/>
                                         <subviews>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="laura-and-emma-1513795738" translatesAutoresizingMaskIntoConstraints="NO" id="B6R-7w-Ru3">
@@ -462,6 +463,9 @@
                                                 <rect key="frame" x="137" y="59" width="100" height="151"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Button" image="the-sparsholt-affair-1513795718"/>
+                                                <connections>
+                                                    <segue destination="WMY-v7-ybQ" kind="show" id="ecC-Nu-LhW"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WcK-ja-rv5" userLabel="Amy Bloom">
                                                 <rect key="frame" x="267" y="58" width="100" height="151"/>
@@ -557,9 +561,8 @@
                     <tabBarItem key="tabBarItem" title="Featured Books" image="111113-24" id="mGg-DK-Hxd"/>
                     <size key="freeformSize" width="375" height="1600"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="ig0-i8-aI9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2199.1999999999998" y="-1827.8860569715143"/>
+            <point key="canvasLocation" x="-1030" y="-1828"/>
         </scene>
         <!--Home-->
         <scene sceneID="uwN-Rw-mV2">
@@ -750,14 +753,14 @@
         <scene sceneID="sNk-Ye-9XR">
             <objects>
                 <viewController id="vrM-VC-8zi" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="Pf2-qe-VtV">
+                    <view key="view" contentMode="scaleToFill" id="Pf2-qe-VtV">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="1600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Aiy-wU-yOS">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Aiy-wU-yOS">
                                 <rect key="frame" x="0.0" y="20" width="375" height="1551"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4dx-hZ-ffe">
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4dx-hZ-ffe">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="1551"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wQR-Pv-Wfc">
@@ -765,45 +768,30 @@
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" red="0.0" green="0.99143940210000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <state key="normal" title="Button" image="this-will-be-my-undoing-1513795492"/>
-                                                <connections>
-                                                    <segue destination="4or-8s-YXJ" kind="show" id="Gdg-59-f4b"/>
-                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lkL-fo-oqK">
                                                 <rect key="frame" x="134" y="217" width="100" height="150"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" red="0.0" green="0.99143940210000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <state key="normal" title="Button" image="what-are-we-doing-here-1513795607"/>
-                                                <connections>
-                                                    <segue destination="DUn-iB-6b7" kind="show" id="1gs-kC-wNL"/>
-                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vKC-h3-NiS">
                                                 <rect key="frame" x="134" y="533" width="100" height="150"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" red="0.0" green="0.99143940210000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <state key="normal" title="Button" image="the-hazel-wood-1513795473"/>
-                                                <connections>
-                                                    <segue destination="ZzO-QW-Otb" kind="show" id="RBv-Q9-5hT"/>
-                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rwt-8n-Epp">
                                                 <rect key="frame" x="134" y="1323" width="100" height="150"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" red="0.0" green="0.99143940210000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <state key="normal" title="Button" image="circe-1513795820"/>
-                                                <connections>
-                                                    <segue destination="Hay-9l-ST2" kind="show" id="kD5-sl-I2G"/>
-                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="caY-6Q-XLZ">
                                                 <rect key="frame" x="267" y="1007" width="100" height="150"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" red="0.0" green="0.99143940210000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <state key="normal" title="Button" image="how-to-stop-time-1513795664"/>
-                                                <connections>
-                                                    <segue destination="uaz-oT-6te" kind="show" id="0bt-Zh-oXz"/>
-                                                </connections>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Top 27 Books Of 2018 " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yvi-6l-biZ">
                                                 <rect key="frame" x="0.0" y="8" width="369" height="42"/>
@@ -824,189 +812,126 @@
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" red="0.0" green="0.99143940210000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <state key="normal" title="Button" image="amy-bloom-1513795922"/>
-                                                <connections>
-                                                    <segue destination="hIs-fn-RHm" kind="show" id="U1G-5Z-I7P"/>
-                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PIw-7o-3Pn">
                                                 <rect key="frame" x="8" y="217" width="100" height="150"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" red="0.0" green="0.99143940210000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <state key="normal" title="Button" image="the-recovering-1513795841"/>
-                                                <connections>
-                                                    <segue destination="2xI-OB-4re" kind="show" id="D6h-Lz-dEd"/>
-                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wis-nO-QI3">
                                                 <rect key="frame" x="267" y="217" width="100" height="150"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" red="0.0" green="0.99143940210000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <state key="normal" title="Button" image="the-merry-spinster-1513795764"/>
-                                                <connections>
-                                                    <segue destination="hIn-aN-2M0" kind="show" id="Kjm-2c-oeU"/>
-                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lrs-ep-lzK">
                                                 <rect key="frame" x="267" y="375" width="100" height="150"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" red="0.0" green="0.99143940210000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <state key="normal" title="Button" image="back-talk-1513795644"/>
-                                                <connections>
-                                                    <segue destination="oGb-p4-PjX" kind="show" id="jFr-gf-XyZ"/>
-                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sX3-XD-zi1">
                                                 <rect key="frame" x="134" y="375" width="100" height="150"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" red="0.0" green="0.99143940210000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <state key="normal" title="Button" image="the-line-becomes-a-river-1513795626"/>
-                                                <connections>
-                                                    <segue destination="OGq-Rt-uVA" kind="show" id="SBm-pH-j3r"/>
-                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CON-Xg-uTH">
                                                 <rect key="frame" x="8" y="533" width="100" height="150"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" red="0.0" green="0.99143940210000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <state key="normal" title="Button" image="the-house-of-impossible-beauties-1513795682"/>
-                                                <connections>
-                                                    <segue destination="aA6-CC-Dm3" kind="show" id="Rzk-u9-xOd"/>
-                                                </connections>
-                                            </button>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T51-GG-HBF">
-                                                <rect key="frame" x="134" y="59" width="100" height="150"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <color key="backgroundColor" red="0.0" green="0.99143940210000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <state key="normal" title="Button" image="the-sparsholt-affair-1513795718"/>
-                                                <connections>
-                                                    <segue destination="WMY-v7-ybQ" kind="show" id="tsU-2s-bJ4"/>
-                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Orh-p3-6OB">
                                                 <rect key="frame" x="267" y="533" width="100" height="150"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" red="0.0" green="0.99143940210000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <state key="normal" title="Button" image="the-female-persuasion-1513795865"/>
-                                                <connections>
-                                                    <segue destination="uuv-rf-KdW" kind="show" id="Ajb-g3-Yng"/>
-                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mpn-qU-lbD">
                                                 <rect key="frame" x="8" y="691" width="100" height="150"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" red="0.0" green="0.99143940210000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <state key="normal" title="Button" image="some-hell-1513795701"/>
-                                                <connections>
-                                                    <segue destination="Gkf-zu-PPM" kind="show" id="aka-bn-cGf"/>
-                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h9T-pv-dXO">
                                                 <rect key="frame" x="134" y="691" width="100" height="150"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" red="0.0" green="0.99143940210000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <state key="normal" title="Button" image="tangerine-1513795958"/>
-                                                <connections>
-                                                    <segue destination="ur7-VE-ZY2" kind="show" id="OLf-Qd-nRS"/>
-                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="afG-17-nKe">
                                                 <rect key="frame" x="267" y="691" width="100" height="150"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" red="0.0" green="0.99143940210000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <state key="normal" title="Button" image="oliver-loving-1513795452"/>
-                                                <connections>
-                                                    <segue destination="Fgn-bH-Gcg" kind="show" id="ONg-vU-iCb"/>
-                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WyW-sq-dJL">
                                                 <rect key="frame" x="8" y="849" width="100" height="150"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" red="0.0" green="0.99143940210000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <state key="normal" title="Button" image="laura-and-emma-1513795738"/>
-                                                <connections>
-                                                    <segue destination="TMF-iE-UEN" kind="show" id="FX2-lw-isY"/>
-                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DXc-9Q-tiZ">
                                                 <rect key="frame" x="134" y="849" width="100" height="150"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" red="0.0" green="0.99143940210000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <state key="normal" title="Button" image="sharp-1513795881"/>
-                                                <connections>
-                                                    <segue destination="7JD-7P-r9x" kind="show" id="4BW-sj-yyz"/>
-                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hcK-qn-smN">
                                                 <rect key="frame" x="267" y="849" width="100" height="150"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" red="0.0" green="0.99143940210000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <state key="normal" title="Button" image="red-clocks-1513795413"/>
-                                                <connections>
-                                                    <segue destination="hyz-pY-zot" kind="show" id="WuV-6v-ucA"/>
-                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vSI-8d-XXz">
                                                 <rect key="frame" x="8" y="1007" width="100" height="150"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" red="0.0" green="0.99143940210000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <state key="normal" title="Button" image="how-to-write-an-autobiographical-novel-1513795939"/>
-                                                <connections>
-                                                    <segue destination="a4k-wY-N9K" kind="show" id="fBR-yB-yic"/>
-                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8BE-Pq-3b9">
                                                 <rect key="frame" x="134" y="1007" width="100" height="150"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" red="0.0" green="0.99143940210000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <state key="normal" title="Button" image="freshwater-1513795541"/>
-                                                <connections>
-                                                    <segue destination="P6R-R6-3ex" kind="show" id="rQw-tb-Hav"/>
-                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D4K-Hm-cog">
                                                 <rect key="frame" x="8" y="1165" width="100" height="150"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" red="0.0" green="0.99143940210000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <state key="normal" title="Button" image="heart-berries-1513795521"/>
-                                                <connections>
-                                                    <segue destination="tyQ-Yd-eSM" kind="show" id="mMc-5p-bM7"/>
-                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1c5-V5-Qch">
                                                 <rect key="frame" x="134" y="1165" width="100" height="150"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" red="0.0" green="0.99143940210000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <state key="normal" title="Button" image="feel-free-1513795562"/>
-                                                <connections>
-                                                    <segue destination="4MX-ps-zx5" kind="show" id="DOa-gz-tlo"/>
-                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s3Y-w5-T9L">
                                                 <rect key="frame" x="267" y="1165" width="100" height="150"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" red="0.0" green="0.99143940210000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <state key="normal" title="Button" image="an-american-marriage-1513795586"/>
-                                                <connections>
-                                                    <segue destination="GCf-r1-7HL" kind="show" id="Lya-wG-sCn"/>
-                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q4V-S7-y15">
                                                 <rect key="frame" x="8" y="1323" width="100" height="150"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" red="0.0" green="0.99143940210000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <state key="normal" title="Button" image="and-now-we-have-everything-1513795900"/>
-                                                <connections>
-                                                    <segue destination="JC2-jH-qO4" kind="show" id="Cwk-oZ-2lp"/>
-                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yVX-gO-CZi">
                                                 <rect key="frame" x="267" y="1323" width="100" height="150"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" red="0.0" green="0.99143940210000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <state key="normal" title="Button" image="neon-in-daylight-1513795392"/>
-                                                <connections>
-                                                    <segue destination="U3h-ZZ-prV" kind="show" id="bXZ-k3-aHk"/>
-                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nU9-LO-5gA">
+                                                <rect key="frame" x="134" y="59" width="100" height="150"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <state key="normal" image="the-sparsholt-affair-1513795718"/>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -1039,7 +964,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IGe-F4-LM7" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2199.1999999999998" y="-1827.8860569715143"/>
+            <point key="canvasLocation" x="1145" y="-3158"/>
         </scene>
         <!--This Will Be My Undoing-->
         <scene sceneID="Yj8-CG-T0s">
@@ -2071,7 +1996,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="w0e1N"/>
                                 <connections>
-                                    <segue destination="Ntu-1x-Wee" kind="show" id="0sA-SJ-Hnm"/>
+                                    <segue destination="Ntu-1x-Wee" kind="show" id="j4P-HL-ifb"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OVZ-bf-Hup" userLabel="The Sparsholt Affair">
@@ -2366,6 +2291,6 @@
         <image name="what-are-we-doing-here-1513795607" width="980" height="1470"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="3lA-ou-njG"/>
+        <segue reference="j4P-HL-ifb"/>
     </inferredMetricsTieBreakers>
 </document>
